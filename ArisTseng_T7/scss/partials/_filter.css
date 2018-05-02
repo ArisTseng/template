@@ -1,0 +1,107 @@
+.filter::before {
+  width: 8rem;
+  padding: 0.2rem 1rem;
+  margin-left: 1rem;
+  text-align: center;
+  color: #ffffff;
+  background-color: #111111;
+  content: "FILTER"; }
+.filter .bg-white {
+  background-color: #ffffff; }
+.filter .tittle {
+  color: #111111;
+  font-size: 1.1rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem; }
+.filter .border-right {
+  border-color: #f3f3f2; }
+.filter a {
+  color: #111111; }
+  .filter a:hover {
+    color: #5e5e5e; }
+.filter .brandname, .filter .sized {
+  min-width: 230px; }
+  @media (min-width: 992px) and (max-width: 1200px) {
+    .filter .brandname, .filter .sized {
+      min-width: 100%; } }
+  @media (max-width: 768px) {
+    .filter .brandname, .filter .sized {
+      min-width: 100%; } }
+@media (min-width: 768px) {
+  .filter .produce {
+    min-width: 600px; } }
+.filter .typed {
+  min-width: 200px; }
+  @media (max-width: 768px) {
+    .filter .typed {
+      max-width: 200px; } }
+  .filter .typed figure {
+    margin: auto;
+    position: relative; }
+    .filter .typed figure img {
+      width: 90%;
+      margin: 5% 5%; }
+    .filter .typed figure .fly {
+      position: absolute;
+      width: 60%;
+      top: 25%;
+      left: 15%;
+      display: none; }
+    .filter .typed figure:hover .fly {
+      display: block; }
+  .filter .typed .total {
+    color: #e73a24;
+    font-size: 1.5rem;
+    line-height: 1.5rem; }
+  .filter .typed p {
+    text-align: center; }
+.filter .sized .colorsample {
+  margin: 1px;
+  width: 20px;
+  height: 20px; }
+  .filter .sized .colorsample:nth-child(1) {
+    background-color: #e73a24; }
+  .filter .sized .colorsample:nth-child(2) {
+    background-color: #f59f59; }
+  .filter .sized .colorsample:nth-child(3) {
+    background-color: #52a7fb; }
+  .filter .sized .colorsample:nth-child(4) {
+    background-color: #dce37a; }
+  .filter .sized .colorsample:nth-child(5) {
+    background-color: #62130e; }
+  .filter .sized .colorsample:nth-child(6) {
+    background-color: #792c6c; }
+  .filter .sized .colorsample:nth-child(7) {
+    background-color: #1b3449; }
+  .filter .sized .colorsample:nth-child(8) {
+    background-color: #517437; }
+  .filter .sized .colorsample:nth-child(9) {
+    background-color: #7751e4; }
+  .filter .sized .colorsample:nth-child(10) {
+    background-color: #4a3d2e; }
+  .filter .sized .colorsample:nth-child(11) {
+    background-color: #020805; }
+  .filter .sized .colorsample:nth-child(12) {
+    background-color: #266a0b; }
+  .filter .sized .colorsample:nth-child(13) {
+    background-color: #9b62a4; }
+  .filter .sized .colorsample:nth-child(14) {
+    background-color: #044974; }
+  .filter .sized .colorsample:nth-child(15) {
+    background-color: #bdadac; }
+  .filter .sized .colorsample:nth-child(16) {
+    background-color: #f8570c; }
+  .filter .sized .colorsample:nth-child(17) {
+    background-color: #c6d713; }
+  .filter .sized .colorsample:nth-child(18) {
+    background-color: #39727b; }
+  .filter .sized .colorsample:nth-child(19) {
+    background-color: #bf877c; }
+  .filter .sized .colorsample:nth-child(20) {
+    background-color: #fcfffe; }
+.filter .sized .twohandrange {
+  display: flex;
+  justify-content: center; }
+
+/*# sourceMappingURL=_filter.css.map */

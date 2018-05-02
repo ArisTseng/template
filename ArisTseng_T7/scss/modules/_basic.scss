@@ -1,0 +1,16 @@
+$bg-gray: #f3f3f2;
+$bg-red: #e73a24;
+$black: #111111;
+$white: #ffffff;
+
+
+
+@mixin hover($color,$bg-color) {
+  color: $color;
+  background-color: $bg-color;
+  &:hover{
+    color: darken($color,30%);
+    background-color: lighten($bg-color,30%);
+    text-decoration: none;
+  }
+}

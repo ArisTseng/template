@@ -1,0 +1,20 @@
+.page .nav-item {
+  margin-right: 2px; }
+  .page .nav-item .nav-link {
+    color: #111111;
+    background-color: #ffffff;
+    font-weight: bold; }
+    .page .nav-item .nav-link:hover {
+      letter-spacing: 0.1rem; }
+  .page .nav-item .active {
+    color: #ffffff;
+    background-color: #e73a24; }
+.page .article {
+  margin-top: 2px;
+  background-color: #ffffff; }
+  .page .article ._red {
+    color: #e73a24; }
+  .page .article ._08rem {
+    font-size: 0.8rem; }
+
+/*# sourceMappingURL=_page.css.map */

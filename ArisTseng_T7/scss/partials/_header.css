@@ -1,0 +1,61 @@
+header .tel_mail {
+  font-size: 0.8rem; }
+  @media (min-width: 992px) {
+    header .tel_mail {
+      text-align: right; } }
+  @media (min-width: 400px) {
+    header .tel_mail .tel, header .tel_mail .mail {
+      width: 50%; } }
+header .logo {
+  height: 3rem;
+  width: auto; }
+  @media (max-width: 400px) {
+    header .logo {
+      height: auto;
+      width: 100%; } }
+@media (min-width: 992px) {
+  header .h-contact {
+    text-align: right; } }
+header .h-contact .rounded-circle {
+  width: 30px;
+  height: 30px;
+  border-color: #aaaaa2;
+  padding: 2px 1px 0 0;
+  text-align: center; }
+  header .h-contact .rounded-circle a {
+    color: #111111; }
+    header .h-contact .rounded-circle a:hover {
+      color: #5e5e5e; }
+header .h-contact .login {
+  color: #111111;
+  text-decoration: underline;
+  font-weight: bold; }
+  header .h-contact .login:hover {
+    color: #5e5e5e; }
+header .h-contact .register {
+  color: #ffffff;
+  background-color: #e73a24;
+  background: linear-gradient(to bottom, #e73a24 0%, red 48%, red 100%); }
+  header .h-contact .register:hover {
+    color: #b3b3b3;
+    background-color: #f6b6ae;
+    text-decoration: none; }
+header .set-bg {
+  background: linear-gradient(to bottom, #fefefe 0%, #f7f7f7 48%, #f7f7f7 100%); }
+header .navbar a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #111111; }
+  header .navbar a:hover {
+    color: #5e5e5e; }
+header .search button {
+  left: 0;
+  background-color: transparent; }
+header .search input {
+  border-radius: 18px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #aaaaa2;
+  width: 100%; }
+
+/*# sourceMappingURL=_header.css.map */

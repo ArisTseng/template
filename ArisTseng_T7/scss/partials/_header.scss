@@ -1,0 +1,79 @@
+@import "../modules/basic";
+
+header{
+  .tel_mail{
+    font-size: 0.8rem;
+    @media(min-width: 992px){
+      text-align: right;
+    }
+    .tel,.mail{
+      @media(min-width: 400px){
+        width: 50%;
+      }
+    }
+  }
+  .logo{
+    height: 3rem;
+    width: auto;
+    @media(max-width: 400px){
+      height: auto;
+      width: 100%;
+    }
+  }
+  .h-contact{
+    @media(min-width: 992px){
+      text-align: right;
+    }
+    .rounded-circle{
+      width:30px;
+      height:30px;
+      border-color: darken($bg-gray,30%);
+      padding: 2px 1px 0 0;
+      text-align: center;
+      a{
+        color: $black;
+        &:hover{
+          color: lighten($black,30%);
+        }
+      }
+    }
+    .login{
+      color: $black;
+      text-decoration: underline;
+      font-weight: bold;
+      &:hover{
+        color: lighten($black,30%);
+      }
+    }
+    .register{
+      @include hover($white,$bg-red);
+      background: linear-gradient(to bottom, $bg-red 0%, red 48%, red 100%);
+    }
+  }
+  .set-bg{
+    background: linear-gradient(to bottom, #fefefe 0%, #f7f7f7 48%, #f7f7f7 100%);
+  }
+  .navbar{
+    a{
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: $black;
+      &:hover{
+        color: lighten($black,30%);
+      }
+    }
+  }
+  .search{
+    button{
+      left:0;
+      background-color: transparent;
+    }
+    input{
+      border-radius: 18px;
+      border-style: solid;
+      border-width: 1px;
+      border-color: darken($bg-gray,30%);
+      width: 100%;
+    }
+  }
+}

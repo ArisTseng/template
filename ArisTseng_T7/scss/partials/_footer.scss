@@ -1,0 +1,45 @@
+@import "../modules/basic";
+
+.footer{
+  background-color: $bg-red;
+  ._logo{
+  }
+  ._nav{
+    color: $white;
+    a{
+      color: $white;
+    }
+  }
+  ._social{
+    min-width: 130px;
+  }
+  .foot-icon{
+    li{
+      display: inline-block;
+      a{
+        width: 30px;
+        height: 30px;
+        display: block;
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+
+    li:nth-child(1){
+      a{
+        background: url(../image/footericon.png) top left;
+      }
+    }
+    li:nth-child(2){
+      a{
+        background: url(../image/footericon.png) top center;
+      }
+    }
+    li:nth-child(3){
+      a{
+        background: url(../image/footericon.png) top right;
+      }
+    }
+  }
+}

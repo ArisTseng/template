@@ -1,0 +1,111 @@
+@import "../modules/basic";
+
+.filter{
+  &::before{
+    width:8rem;
+    padding: 0.2rem 1rem;
+    margin-left: 1rem;
+    text-align: center;
+    color: $white;
+    background-color: $black;
+    content:"FILTER"
+  }
+  .bg-white{
+    background-color: $white;
+  }
+  .tittle{
+    color: $black;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .border-right{
+    border-color: $bg-gray;
+  }
+  a{
+    color:$black;
+    &:hover{
+      color: lighten($black,30%);
+    }
+  }
+  .brandname,.sized{
+    min-width: 230px;
+    @media(min-width: 992px)and(max-width: 1200px){
+      min-width: 100%;
+    }
+    @media(max-width: 768px){
+      min-width: 100%;
+    }
+  }
+  .produce{
+    @media(min-width: 768px){
+      min-width: 600px;
+    }
+  }
+  .typed{
+    min-width: 200px;
+    @media(max-width: 768px){
+      max-width: 200px;
+    }
+    figure{
+      margin: auto;
+      position: relative;
+      img{
+        width: 90%;
+        margin:5% 5%;
+      }
+      .fly{
+        position: absolute;
+        width: 60%;
+        top: 25%;
+        left: 15%;
+        display: none;
+      }
+      &:hover{
+        .fly{
+          display: block;
+        }
+      }
+    }
+    .total{
+      color: $bg-red;
+      font-size: 1.5rem;
+      line-height: 1.5rem;
+    }
+    p{
+      text-align: center;
+    }
+  }
+  .sized{
+    .colorsample{
+      margin: 1px;
+      width: 20px;
+      height: 20px;
+      &:nth-child(1){background-color: #e73a24;}
+      &:nth-child(2){background-color: #f59f59;}
+      &:nth-child(3){background-color: #52a7fb;}
+      &:nth-child(4){background-color: #dce37a;}
+      &:nth-child(5){background-color: #62130e;}
+      &:nth-child(6){background-color: #792c6c;}
+      &:nth-child(7){background-color: #1b3449;}
+      &:nth-child(8){background-color: #517437;}
+      &:nth-child(9){background-color: #7751e4;}
+      &:nth-child(10){background-color: #4a3d2e;}
+      &:nth-child(11){background-color: #020805;}
+      &:nth-child(12){background-color: #266a0b;}
+      &:nth-child(13){background-color: #9b62a4;}
+      &:nth-child(14){background-color: #044974;}
+      &:nth-child(15){background-color: #bdadac;}
+      &:nth-child(16){background-color: #f8570c;}
+      &:nth-child(17){background-color: #c6d713;}
+      &:nth-child(18){background-color: #39727b;}
+      &:nth-child(19){background-color: #bf877c;}
+      &:nth-child(20){background-color: #fcfffe;}
+    }
+    .twohandrange{
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,92 @@
+@import "../modules/basic";
+
+.mensfooter{
+  ._hover{
+    &:hover{
+      outline: 5px solid $bg-red;
+    }
+    
+  }
+  ._174{
+    font-size: 1.5rem;
+    color: $white;
+    background-color: $bg-red;
+    text-decoration:line-through;
+    width: 6rem;
+    text-align: center;
+    float:right;
+  }
+  ._109{
+    font-size: 2.5rem;
+    background-color: $white;
+    text-align: center;
+    font-weight: 600;
+  }
+  .pig{
+    text-align: center;
+  }
+  .border-bottom{
+    border-color: $bg-gray;
+  }
+  .freeshipping{
+    .fa-2x{
+      color: $bg-red;
+    }
+    ._select{
+      width: 100%;
+      background-color: lighten($bg-gray,30%);
+      padding: 0.5rem 0 0.5rem 0;
+      text-align: center;
+      border-style:none;
+      border-radius: 5px;
+    }
+    ._button{
+      width: 100%;
+      font-size: 1.5rem;
+      border-radius: 10px;
+      @include hover($white,$bg-red);
+    }
+    .text-md-right{
+      h{
+        display: block;
+        font-weight: bold;
+      }
+      .rounded{
+        background-color: lighten($bg-gray,30%);
+        float: right;
+      }
+      div{
+        width:32px;
+        padding-left: 2px;
+        padding-right: 2px;
+        a{
+          display: block;
+          width: 28px;
+          height: 28px;
+        }
+        &:hover {
+          transform: scale(1.2);
+        }
+        &:nth-child(1) a{
+            background: url(../image/social.png) top left;
+        }
+        &:nth-child(2) a{
+            background: url(../image/social.png) top center;
+        }
+        &:nth-child(3) a{
+            background: url(../image/social.png) top right;
+        }
+        &:nth-child(4) a{
+            background: url(../image/social.png) bottom left;
+        }
+        &:nth-child(5) a{
+            background: url(../image/social.png) bottom center;
+        }
+        &:nth-child(6) a{
+            background: url(../image/social.png) bottom right;
+        }
+      }
+    }
+  }
+
+}

@@ -1,0 +1,29 @@
+@import "../modules/basic";
+
+.page{
+  .nav-item{
+    margin-right: 2px;
+    .nav-link{
+      color:$black;
+      background-color: $white;
+      font-weight: bold;
+      &:hover {
+        letter-spacing: 0.1rem;
+      }
+    }
+    .active{
+      color: $white;
+      background-color: $bg-red;
+    }
+  }
+  .article{
+    margin-top: 2px;
+    background-color: $white;
+    ._red{
+      color: $bg-red;
+    }
+    ._08rem{
+      font-size: 0.8rem;
+    }
+  }
+}

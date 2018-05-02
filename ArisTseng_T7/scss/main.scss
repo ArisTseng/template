@@ -1,0 +1,32 @@
+@import "modules/basic";
+@import "partials/header";
+@import "partials/filter";
+@import "partials/mensfooter";
+@import "partials/page";
+@import "partials/footer";
+
+
+*{
+   outline: 0.5px solid lighten(gray,40%);
+}
+body{
+  background-color: $bg-gray;
+}
+a,p,h1,h2,h3,h4,h5,h6{
+  font-family: 'PT Sans' ,sans-serif;
+  margin: 0;
+}
+ul{
+  padding-left: 0;
+  margin-bottom: 0;
+}
+li{
+  list-style-type: none;
+}
+img{
+  /* object-fit: cover; */
+
+}
+button{
+  border-style: none;
+}

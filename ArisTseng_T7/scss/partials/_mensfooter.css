@@ -1,0 +1,68 @@
+.mensfooter ._hover:hover {
+  outline: 5px solid #e73a24; }
+.mensfooter ._174 {
+  font-size: 1.5rem;
+  color: #ffffff;
+  background-color: #e73a24;
+  text-decoration: line-through;
+  width: 6rem;
+  text-align: center;
+  float: right; }
+.mensfooter ._109 {
+  font-size: 2.5rem;
+  background-color: #ffffff;
+  text-align: center;
+  font-weight: 600; }
+.mensfooter .pig {
+  text-align: center; }
+.mensfooter .border-bottom {
+  border-color: #f3f3f2; }
+.mensfooter .freeshipping .fa-2x {
+  color: #e73a24; }
+.mensfooter .freeshipping ._select {
+  width: 100%;
+  background-color: white;
+  padding: 0.5rem 0 0.5rem 0;
+  text-align: center;
+  border-style: none;
+  border-radius: 5px; }
+.mensfooter .freeshipping ._button {
+  width: 100%;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  color: #ffffff;
+  background-color: #e73a24; }
+  .mensfooter .freeshipping ._button:hover {
+    color: #b3b3b3;
+    background-color: #f6b6ae;
+    text-decoration: none; }
+.mensfooter .freeshipping .text-md-right h {
+  display: block;
+  font-weight: bold; }
+.mensfooter .freeshipping .text-md-right .rounded {
+  background-color: white;
+  float: right; }
+.mensfooter .freeshipping .text-md-right div {
+  width: 32px;
+  padding-left: 2px;
+  padding-right: 2px; }
+  .mensfooter .freeshipping .text-md-right div a {
+    display: block;
+    width: 28px;
+    height: 28px; }
+  .mensfooter .freeshipping .text-md-right div:hover {
+    transform: scale(1.2); }
+  .mensfooter .freeshipping .text-md-right div:nth-child(1) a {
+    background: url(../image/social.png) top left; }
+  .mensfooter .freeshipping .text-md-right div:nth-child(2) a {
+    background: url(../image/social.png) top center; }
+  .mensfooter .freeshipping .text-md-right div:nth-child(3) a {
+    background: url(../image/social.png) top right; }
+  .mensfooter .freeshipping .text-md-right div:nth-child(4) a {
+    background: url(../image/social.png) bottom left; }
+  .mensfooter .freeshipping .text-md-right div:nth-child(5) a {
+    background: url(../image/social.png) bottom center; }
+  .mensfooter .freeshipping .text-md-right div:nth-child(6) a {
+    background: url(../image/social.png) bottom right; }
+
+/*# sourceMappingURL=_mensfooter.css.map */
