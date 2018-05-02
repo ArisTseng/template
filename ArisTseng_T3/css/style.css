@@ -1,0 +1,159 @@
+* {
+ /* box-shadow: 0 0 1px red; */
+}
+/*--       basic frame   --*/
+body {
+
+}
+
+/*  main container  */
+.container{
+  background-color: #326611;
+}
+
+/*  up section  */
+.upsection{
+
+}
+.logo{
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+ul li {
+  background-color: #494949;
+}
+ul li a {
+  color: #dbebd1;
+  text-align: center;
+}
+ul li a:hover:not(.active) {
+  background-color: #dbebd1;
+  color: #494949;
+}
+li a.active {
+  color: #494949;
+  background-color: #97b486;
+}
+.poster{
+  height:438px;
+  width:100%;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url('../image/gardening1.jpg');
+}
+.gradeningtips{
+  width:100%;
+  padding-top: 15px;
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(45, 45, 45, 0.7);
+}
+.gradeningtips h2{
+  color: #eaed9f;
+}
+.gradeningtips p{
+  color:#ffffff;
+  font-weight: bolder;
+}
+
+/*  central section  */
+.centralsection{
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.centralsection .left{
+  border-right:1px solid rgba(255,255,255,0.6);
+}
+.centralsection .middle{
+  border-right:1px solid rgba(255,255,255,0.6);
+}
+.centralsection .right{
+
+}
+.centralsection div::after{
+  clear: both;
+}
+.centralsection div img{
+  border: 1px solid white;
+  float:left;
+  margin-right: 10px;
+}
+.centralsection div h5{
+  color:#eaed9f;
+}
+.centralsection div p{
+  color:#ffffff;
+}
+
+/*  bottom section */
+.downsection{
+  background-color: #ffffff;
+  padding: 15px;
+}
+.downsection h5{
+  color: #7c4d14;
+}
+.title{
+  background-color: #dde9d5;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 5px 5px #b0cba0;
+}
+.upcolumn{
+  padding-top: 15px;
+  padding-bottom: 15PX;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(55, 55, 55, 0.5);
+}
+.upcolumn div img{
+  width: 100%;
+  padding-bottom: 15px;
+}
+.downcolumn{
+  padding-top: 15px;
+  padding-bottom: 15PX;
+  display: flex;
+  flex-flow: row wrap;
+}
+.downcolumn img{
+  width: 100%;
+  height:auto;
+}
+.downcolumn ol li{
+  padding-top: 15px;
+}
+.contactcolumn{
+  background-color: #dde9d5;
+  display: flex;
+  flex-flow: row wrap;
+}
+.contactcolumn div{
+  padding-top: 15px;
+}
+.contactcolumn h5,
+.contactcolumn p{
+  color :#89898a;
+}
+.contactcolumn i{
+  color:#326611;
+}
+.footer{
+  text-align: center;
+}
+.footer p{
+  color: #ffffff;
+  font-weight: bolder;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
