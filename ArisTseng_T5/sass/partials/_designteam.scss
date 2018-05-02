@@ -1,0 +1,60 @@
+@import "../modules/basic";
+
+.designteam{
+  .title{
+    margin-top: 75px;
+    width:100%;
+    text-align: center;
+    position: relative;
+    .downtri{
+      width: 0;
+      height: 0;
+      border-right: 20px solid transparent;
+      border-left: 20px solid transparent;
+      border-top: 20px solid $DeepPink;
+      position: absolute;
+      top: 48px;
+      left: 0;
+      right: 0;
+      margin: auto;
+      z-index: 999;
+    }
+    p{
+      background-color: $DeepPink;
+      @include fontsize($f-size-10);
+      @include lineheight($f-size-10);
+      @include textcolor($White);
+      @include space($letterspace-01);
+    }
+    h5{
+      font-family: serif;
+      font-weight: bold;
+      @include fontsize($f-size-12);
+      @include lineheight($f-size-12);
+      @include textcolor($DeepPink);
+      @include space($letterspace-01);
+    }
+  }
+  .designmember{
+    text-align: center;
+    h5{
+      font-family: serif;
+      font-weight: bold;
+      margin-bottom: 0;
+      @include fontsize($f-size-20);
+      @include textcolor($DeepPink);
+      @include space($letterspace-01);
+    }
+    p{
+      @include fontsize($f-size-08);
+    }
+  }
+  .button{
+    background-color: $Black;
+    border-radius: none;
+    border-style: none;
+    @include fontsize($f-size-08);
+    @include lineheight($f-size-08);
+    @include textcolor($White);
+  }
+}

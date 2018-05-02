@@ -1,0 +1,38 @@
+@import "../modules/basic";
+
+.aboutus{
+  @include bg("../images/bg.jpg");
+  @include textcolor($White);
+  h5{
+    @include fontsize($f-size-20);
+    font-family: serif;
+    font-weight: bold;
+  }
+  p{
+    @include fontsize($f-size-08);
+  }
+  .leftblock{
+    margin-bottom: 150px;
+  }
+  .rightblock{
+    margin-top: 150px;
+  }
+  .introduce{
+    overflow: hidden;
+  }
+  .delimiter{
+    span{
+      display: block;
+      text-align:center;
+      @include fontsize($f-size-12);
+    }
+  }
+  .button{
+    background-color: $White;
+    border-radius: none;
+    border-style: none;
+    @include fontsize($f-size-08);
+    @include lineheight($f-size-08);
+    @include textcolor($Black);
+  }
+}

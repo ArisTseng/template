@@ -1,0 +1,15 @@
+@import "../modules/basic";
+
+.banner{
+  background-color : $RebeccaPurple;
+  .home{
+    @include textcolor($White);
+    @include fontsize($f-size-08);
+    @include lineheight($f-size-08);
+  }
+  .contact{
+    @include textcolor($DeepPink);
+    @include fontsize($f-size-08);
+    @include lineheight($f-size-08);
+  }
+}

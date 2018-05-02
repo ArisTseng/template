@@ -1,0 +1,42 @@
+$RebeccaPurple : #330e33;
+$White : #fefefe;
+$DeepPink : #f74144;
+$Black : #111111;
+$Gray : #e6e5e5;
+
+$rate-whole : 1848/538;
+$rate-album : 252/337;
+$rate-member : 400/400;
+
+$w-web : 960px;
+$h-web : 960px*$rate-whole;
+$h-introduce : 150px;
+
+$letterspace-01 : 0.1rem;
+$letterspace-02 : 0.2rem;
+$f-size-08 : 0.8rem;
+$f-size-10 : 1.0rem;
+$f-size-12 : 1.2rem;
+$f-size-20 : 2.0rem;
+$f-size-28 : 2.8rem;
+
+
+
+@mixin bg($url){
+  background-image: url($url);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@mixin textcolor($color){
+  color: $color;
+}
+@mixin fontsize($f-size){
+  font-size: $f-size;
+}
+@mixin space($sp){
+  letter-spacing: $sp;
+}
+@mixin lineheight($h) {
+  line-height: $h*3;
+}

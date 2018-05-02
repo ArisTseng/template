@@ -1,0 +1,51 @@
+@import "../modules/basic";
+
+.poster{
+  @include bg("../images/poster.png");
+  h1,p,li,button{
+    color:$White;
+  }
+  h1,p{
+    font-family: serif;
+  }
+  p{
+    font-weight: bold;
+  }
+  div{
+    text-align: center;
+  }
+  .div_01{
+    margin-top: 100px;
+    h1{
+      @include space($letterspace-01);
+      @include fontsize($f-size-28);
+      @include lineheight($f-size-28);
+    }
+    p{
+      @include space($letterspace-02);
+      @include fontsize($f-size-12);
+      @include lineheight($f-size-12);
+    }
+  }
+  .div_02{
+    margin-top: 100px;
+    p{
+      @include space($letterspace-01);
+    }
+  }
+  .div_03{
+    text-align: center;
+    @include fontsize($f-size-12);
+  }
+  .div_04{
+    .button{
+      border-radius: none;
+      border-style: none;
+      width:$w-web*2/7;
+      background-color: $DeepPink;
+      @include fontsize($f-size-10);
+      @include lineheight($f-size-10);
+      @include space($letterspace-01);
+    }
+  }
+}

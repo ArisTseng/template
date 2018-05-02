@@ -1,0 +1,13 @@
+@import "../modules/basic";
+
+.authorize{
+  background-color: $Gray;
+  text-align: center;
+  @include fontsize($f-size-08);
+  p{
+    margin: auto;
+    i{
+      @include textcolor($DeepPink);
+    }
+  }
+}

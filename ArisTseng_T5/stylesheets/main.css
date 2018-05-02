@@ -1,0 +1,243 @@
+/* line 3, ../sass/partials/_header.scss */
+.banner {
+  background-color: #330e33;
+}
+/* line 5, ../sass/partials/_header.scss */
+.banner .home {
+  color: #fefefe;
+  font-size: 0.8rem;
+  line-height: 2.4rem;
+}
+/* line 10, ../sass/partials/_header.scss */
+.banner .contact {
+  color: #f74144;
+  font-size: 0.8rem;
+  line-height: 2.4rem;
+}
+
+/* line 3, ../sass/partials/_poster.scss */
+.poster {
+  background-image: url("../images/poster.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* line 5, ../sass/partials/_poster.scss */
+.poster h1, .poster p, .poster li, .poster button {
+  color: #fefefe;
+}
+/* line 8, ../sass/partials/_poster.scss */
+.poster h1, .poster p {
+  font-family: serif;
+}
+/* line 11, ../sass/partials/_poster.scss */
+.poster p {
+  font-weight: bold;
+}
+/* line 14, ../sass/partials/_poster.scss */
+.poster div {
+  text-align: center;
+}
+/* line 17, ../sass/partials/_poster.scss */
+.poster .div_01 {
+  margin-top: 100px;
+}
+/* line 19, ../sass/partials/_poster.scss */
+.poster .div_01 h1 {
+  letter-spacing: 0.1rem;
+  font-size: 2.8rem;
+  line-height: 8.4rem;
+}
+/* line 24, ../sass/partials/_poster.scss */
+.poster .div_01 p {
+  letter-spacing: 0.2rem;
+  font-size: 1.2rem;
+  line-height: 3.6rem;
+}
+/* line 30, ../sass/partials/_poster.scss */
+.poster .div_02 {
+  margin-top: 100px;
+}
+/* line 32, ../sass/partials/_poster.scss */
+.poster .div_02 p {
+  letter-spacing: 0.1rem;
+}
+/* line 36, ../sass/partials/_poster.scss */
+.poster .div_03 {
+  text-align: center;
+  font-size: 1.2rem;
+}
+/* line 41, ../sass/partials/_poster.scss */
+.poster .div_04 .button {
+  border-radius: none;
+  border-style: none;
+  width: 274.28571px;
+  background-color: #f74144;
+  font-size: 1rem;
+  line-height: 3rem;
+  letter-spacing: 0.1rem;
+}
+
+/* line 3, ../sass/partials/_albumset.scss */
+.albumset {
+  position: relative;
+}
+/* line 5, ../sass/partials/_albumset.scss */
+.albumset .downtri {
+  width: 0;
+  height: 0;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  border-top: 20px solid #f74144;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 999;
+}
+/* line 18, ../sass/partials/_albumset.scss */
+.albumset img {
+  width: 100%;
+  object-fit: cover;
+}
+
+/* line 4, ../sass/partials/_designteam.scss */
+.designteam .title {
+  margin-top: 75px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+/* line 9, ../sass/partials/_designteam.scss */
+.designteam .title .downtri {
+  width: 0;
+  height: 0;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  border-top: 20px solid #f74144;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: 999;
+}
+/* line 22, ../sass/partials/_designteam.scss */
+.designteam .title p {
+  background-color: #f74144;
+  font-size: 1rem;
+  line-height: 3rem;
+  color: #fefefe;
+  letter-spacing: 0.1rem;
+}
+/* line 29, ../sass/partials/_designteam.scss */
+.designteam .title h5 {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  line-height: 3.6rem;
+  color: #f74144;
+  letter-spacing: 0.1rem;
+}
+/* line 38, ../sass/partials/_designteam.scss */
+.designteam .designmember {
+  text-align: center;
+}
+/* line 40, ../sass/partials/_designteam.scss */
+.designteam .designmember h5 {
+  font-family: serif;
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: 2rem;
+  color: #f74144;
+  letter-spacing: 0.1rem;
+}
+/* line 48, ../sass/partials/_designteam.scss */
+.designteam .designmember p {
+  font-size: 0.8rem;
+}
+/* line 52, ../sass/partials/_designteam.scss */
+.designteam .button {
+  background-color: #111111;
+  border-radius: none;
+  border-style: none;
+  font-size: 0.8rem;
+  line-height: 2.4rem;
+  color: #fefefe;
+}
+
+/* line 3, ../sass/partials/_aboutus.scss */
+.aboutus {
+  background-image: url("../images/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fefefe;
+}
+/* line 6, ../sass/partials/_aboutus.scss */
+.aboutus h5 {
+  font-size: 2rem;
+  font-family: serif;
+  font-weight: bold;
+}
+/* line 11, ../sass/partials/_aboutus.scss */
+.aboutus p {
+  font-size: 0.8rem;
+}
+/* line 14, ../sass/partials/_aboutus.scss */
+.aboutus .leftblock {
+  margin-bottom: 150px;
+}
+/* line 17, ../sass/partials/_aboutus.scss */
+.aboutus .rightblock {
+  margin-top: 150px;
+}
+/* line 20, ../sass/partials/_aboutus.scss */
+.aboutus .introduce {
+  overflow: hidden;
+}
+/* line 24, ../sass/partials/_aboutus.scss */
+.aboutus .delimiter span {
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+}
+/* line 30, ../sass/partials/_aboutus.scss */
+.aboutus .button {
+  background-color: #fefefe;
+  border-radius: none;
+  border-style: none;
+  font-size: 0.8rem;
+  line-height: 2.4rem;
+  color: #111111;
+}
+
+/* line 3, ../sass/partials/_authorize.scss */
+.authorize {
+  background-color: #e6e5e5;
+  text-align: center;
+  font-size: 0.8rem;
+}
+/* line 7, ../sass/partials/_authorize.scss */
+.authorize p {
+  margin: auto;
+}
+/* line 9, ../sass/partials/_authorize.scss */
+.authorize p i {
+  color: #f74144;
+}
+
+/* line 8, ../sass/main.scss */
+* {
+  /*  box-shadow: 0 0 1px red; */
+}
+
+/* line 11, ../sass/main.scss */
+body {
+  /*  width : $w-web+30; */
+  /*  height : $h-web;   */
+  /*  margin: auto;      */
+}
+
+/*test for compass*/
