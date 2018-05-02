@@ -1,0 +1,93 @@
+*{
+  /* box-shadow: 0 0 1px red; */
+}
+main{
+ background-image: url("../image/bg_wooden.png");
+}
+/* header */
+li{
+  list-style: none;
+}
+li a:hover:not(active){
+  background-color: red;
+}
+.shadow_h{
+  position:relative;
+  z-index: 1010;
+  box-shadow:0 5px 10px rgba(0, 0, 0, 0.6);
+}
+/* section */
+.layer_01{
+  /*this is first layer in whole section */
+}
+.tips{
+  position: absolute;
+  bottom:2rem;
+  right:2rem;
+}
+.btn_lightbrown{
+  height: 5ex;
+  background-size:100% 100% ;
+  background-image: url(../image/bg_button_brown.png);
+}
+.bg_pattern{
+  background-size:100% 100% ;
+  background-image: url(../image/bg_pattern.jpg);
+}
+
+.layer_02{
+  /*this is second layer in whole section */
+}
+.bg_lightcoffee{
+  background-color: #4b3a34;
+}
+.bg_darkcoffee{
+  background-color: #241c18;
+}
+.bg_separate_lh{
+  background-image: url(../image/sepa_light.png);
+  background-repeat: repeat-x;
+}
+.bg_separate_dh{
+  background-image: url(../image/sepa_dark.png);
+  background-repeat: repeat-x;
+}
+
+.layer_03{
+  /*this is third layer in whole section */
+}
+.bg_separate_lv{
+  background-image: url(../image/sepa_light_vertical.png);
+  background-repeat: repeat-y;
+  background-position:right;
+}
+.bg_gray{
+  background-color: #dddbd3;
+}
+
+/* rooter */
+.shadow_f{
+  position:relative;
+  z-index: 1010;
+  box-shadow:0 -5px 10px rgba(0, 0, 0, 0.6);
+}
+.bg_lightbrown{
+  background-color: #e2b241;
+}
+.bg_separate_dv{
+  background-image: url(../image/sepa_dark_vertical.png);
+  background-repeat: repeat-y;
+  background-position:right;
+}
+.bg_time{
+  background-image: url(../image/bg_time.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.btn_black{
+  height: 5ex;
+  border-style: none;
+  background-color: transparent;
+  background-size:100% 100% ;
+  background-image: url(../image/bg_button_black.png);
+}

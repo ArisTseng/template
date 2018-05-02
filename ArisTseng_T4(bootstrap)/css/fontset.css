@@ -1,0 +1,53 @@
+/*-- font-size --*/
+.ft_20{
+    font-size: 2rem;
+}
+.ft_15{
+  font-size: 1.5rem;
+}
+.ft_10{
+  font-size: 1rem;
+}
+.ft_08{
+  font-size: 0.8rem;
+}
+.ft_05{
+  font-size: 0.5rem;
+}
+/*-- font-weight --*/
+.ft_bolder{
+  font-weight: bolder;
+}
+.ft_lighter{
+  font-weight:lighter;
+}
+/*-- font-color --*/
+.ft_black{
+  color: #111111;
+}
+.ft_white{
+  color:#ffffff;
+}
+.ft_darkbrown{
+  color: #966a04;
+}
+.ft_lightbrown{
+  color:#bfa669;
+}
+.ft_grey{
+  color:#7b7b7a;
+}
+/*-- height --*/
+.h_header{
+  height:8rem;
+}
+.h_layer_03{
+  height:15rem;
+}
+.h_layer_02_img{
+  height:12rem;
+}
+/*-- img fit --*/
+.img_fit{
+  object-fit: cover;
+}
