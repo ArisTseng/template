@@ -1,0 +1,85 @@
+$height-webpage:2333px;
+$width-webpage: 1440px;
+$Rate-h_bg_top: 0.04;
+$Rate-h_bg_bottom: 0.95;
+$Rae-bg_wooden_v: 0.865; //p-t 100px pb 220px
+$Rate-bg_wooden_h: 0.73; //p-t 195px p-b 418px p-x 125px
+$Rate-banner:0.050; //p-t 5px
+$Rate-navbarxsearch:0.025; //p-t 30px
+$Rate-carousel:0.200;
+$Rate-cardset:0.150; //p-t -15px
+$Rate-aboutus:0.200; //top
+$Rate-featuredworkset: 0.170;
+$Rate-socialnetwork: 0.140; //p-t 65px //p-b 50px
+
+
+
+@import "basic";
+
+*{
+  /* box-shadow: 0 0 1px red; */
+}
+body{
+  height: $height-webpage;
+  width: $width-webpage;
+}
+main{
+  position: relative;
+  height:100%;
+  width:100%;
+  padding-left: 125px;
+  padding-right: 125px;
+}
+.bg{
+  height: 100%;
+  width: 100%;
+  @include position(absolute,-99,0,0,0,0);
+  @include bg-color($black);
+  .bg-wooden_v{
+    @include position(absolute,-98,100px,0,220px,0);
+    @include bg-img(wooden_v,repeat,0,0);
+  }
+  .bg-wooden_h{
+    height: $height-webpage*$Rate-carousel;
+    @include position(absolute,-98,195px,125px,0,125px);
+    @include bg-img(wooden_h,repeat,0,0);
+  }
+}
+.banner{
+  /*  height: $height-webpage*$Rate-banner; */
+  @include position(relative,10,2px,0,0,0);
+  @include bg-img(wooden_h,repeat,0,0);
+}
+.navbarxsearch{
+  /* height: $height-webpage*$Rate-navbarxsearch; */
+  @include position(relative,11,5+30px,0,0,0);
+}
+.carousel{
+  /* height: $height-webpage*$Rate-carousel; */
+  @include position(relative,10,5+30px,0,0,0);
+  @include bg-img(wooden_h,repeat,0,0);
+}
+.cardset{
+  height: $height-webpage*$Rate-cardset;
+  @include position(relative,10,35px,0,0,0);
+  @include bg-img(wooden_h,repeat,0,0);
+}
+.aboutus{
+  /* height: $height-webpage*$Rate-aboutus; */
+  @include position(relative,10,35px,0,0,0);
+  @include bg-img(wooden_h,repeat,0,0);
+}
+.featuredworkset{
+  /* height: $height-webpage*$Rate-featuredworkset; */
+  @include position(relative,10,35px,0,0,0);
+  @include bg-img(wooden_h,repeat,0,0);
+}
+.socialnetwork{
+  /* height: $height-webpage*$Rate-socialnetwork; */
+  @include position(relative,10,100px,0,0,0);
+  @include bg-img(wooden_h,repeat,0,0);
+}
+.authxnavbar{
+  @include position(relative,10,100px,0,0,0);
+  @include bg-color($black);
+}

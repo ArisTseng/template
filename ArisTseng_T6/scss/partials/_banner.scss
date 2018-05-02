@@ -1,0 +1,60 @@
+@import "../modules/basic";
+
+.banner{
+  border: 0.5px solid $black;
+  .brand{
+    display: block;
+    height: 115px;
+    @include bg-img(logo,no-repeat,30px,0);
+    width: 100%;
+    object-fit: cover;
+  }
+  .contact{
+    span{
+      display: block;
+      text-align: right;
+      height: 32px;
+      margin-top: 5px;
+    }
+    p{
+      text-align: right;
+    }
+    a {
+      vertical-align: bottom;
+      background: url(../img/social.png) no-repeat;
+      display: inline-block;
+      width: 32px;
+      height: 27px;
+    }
+    a:nth-child(1) {
+      background-position: 0 0;
+      &:hover {
+        background-position: 0 -27px;
+      }
+    }
+    a:nth-child(2) {
+      background-position: -37px 0;
+      &:hover {
+        background-position: -37px -27px;
+      }
+    }
+    a:nth-child(3) {
+      background-position: -74px 0;
+      &:hover {
+        background-position: -74px -27px;
+      }
+    }
+    a:nth-child(4) {
+      background-position: -111px 0;
+      &:hover {
+        background-position: -111px -27px;
+      }
+    }
+    a:nth-child(5) {
+      background-position: -148px 0;
+      &:hover {
+        background-position: -148px -27px;
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+@import "../modules/basic";
+
+.socialnetwork{
+  .block_01{
+
+  }
+  .block_02{
+    .dialogue{
+      @include bg-color($gray);
+      p{
+        margin: 0;
+        font-size: 0.5rem;
+        line-height: 1rem;
+      }
+    }
+    .d-flex{
+      align-items: flex-start;
+      div{
+        img{
+          height: 50px;
+          width: 50px;
+          object-fit: cover;
+        }
+        p{
+          margin: 0;
+        }
+        a{
+          color: $green;
+        }
+      }
+    }
+    .triangle{
+      width: 0;
+      height: 0;
+      border-right: 30px solid transparent;
+      border-top: 18px solid $gray;
+    }
+  }
+  .block_03{
+    input,textarea{
+      @include bg-color($gray);
+      color:darken($gray,30%);
+      border-style: none;
+      outline: 1px solid darken($gray,30%);
+      width: 100%;
+      margin-bottom: 0.5rem;
+    }
+    textarea{
+      margin-bottom: 1rem;
+    }
+    button{
+      color: $white;
+      font-weight:bold;
+      border-style: none;
+      &:nth-child(5){
+        @include bg-color($black);
+        &:hover{
+          @include bg-color(lighten($black,30%));
+        }
+      }
+      &:nth-child(6){
+        @include bg-color($green);
+        &:hover{
+          @include bg-color(lighten($green,30%));
+        }
+      }
+    }
+  }
+  .block_04{
+    .row{
+      width: 260px;
+    }
+    .col-3{
+      height: 66px;
+      @for $i from 1 through 12{
+        &:nth-child(#{$i}){
+          @include bg-img(f#{$i},no-repeat,0,0);
+          background-size: 90%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+@import "../modules/basic";
+
+.featuredworkset{
+  div{
+      position: relative;
+    h3{
+      width: 20rem;
+    }
+    a{
+      color: $gray;
+      position: absolute;
+      bottom: 0;
+      &:nth-child(2){
+        right: 1.5rem;
+      }
+      &:nth-child(3){
+        right:0;
+      }
+      &:hover{
+        color:darken($gray,30%);
+      }
+    }
+  }
+}

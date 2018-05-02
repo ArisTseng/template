@@ -1,0 +1,25 @@
+@import "../modules/basic";
+
+.authxnavbar{
+  color: $white;
+  font-size: 0.8rem;
+  .left{
+    a{
+      color: $green;
+    }
+  }
+  .right{
+    span{
+      float: right;
+      a{
+        color: $white;
+        &:hover{
+          color:$green;
+        }
+      }
+      .active{
+        color: $green;
+      }
+    }
+  }
+}

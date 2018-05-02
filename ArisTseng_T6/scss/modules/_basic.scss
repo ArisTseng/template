@@ -1,0 +1,23 @@
+
+$green: #81b701;
+$gray: #e7e7e7;
+$black: #111111;
+$white: #ffffff;
+
+
+@mixin bg-img($imgname,$repeat,$x,$y) {
+  background-image: url("../img/#{$imgname}.png");
+  background-repeat: $repeat;
+  background-position: $x,$y;
+}
+@mixin bg-color($color) {
+  background-color: $color;
+}
+@mixin position($style,$z,$top,$right,$bottom,$left) {
+  position: $style;
+  z-index: $z;
+  left: $left;
+  right: $right;
+  top: $top;
+  bottom: $bottom;
+}

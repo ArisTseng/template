@@ -1,0 +1,65 @@
+@import "../modules/basic";
+
+.navbarxsearch{
+  .bg-navbar{
+    .navbar{
+      margin-right: 8px;
+      height: 100%;
+      box-shadow: 0 0 1px 0 $black;
+      @include bg-color($white);
+    }
+    .navbar-light{
+      div{
+        ul{
+          li{
+            a{
+              display: block;
+              padding:1rem;
+              color: $black;
+              border: 0.5px solid $gray;
+            }
+            a:hover{
+              color: $white;
+              background-color: $green;
+            }
+          }
+          .active{
+            a{
+              color: $white;
+              background-color: $green;
+            }
+          }
+        }
+      }
+    }
+  }
+  .search{
+    box-shadow: 0 0 1px 0 $black;
+    @include bg-color($white);
+    .form{
+      height: 100%;
+      @include bg-color($white);
+      box-shadow: 0 0 1px gray;
+      input,button{
+        background-color: $gray;
+        border-style: none;
+        height: 42px;
+      }
+      input{
+        width: 85%;
+        &:hover{
+          background-color: lighten($gray,30%);
+        }
+      }
+      button{
+        margin-left: -5px;
+        width: 15%;
+        @include bg-img(search,no-repeat,center,center);
+        vertical-align: top;
+        &:hover{
+          background-color: lighten($gray,30%);
+        }
+      }
+    }
+  }
+}
