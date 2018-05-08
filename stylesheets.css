@@ -1,1 +1,75 @@
-intial
+html {
+  box-sizing: border-box;
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  /* outline: 0.5px gray solid; */
+}
+body{
+  background-color: #aef;
+  line-height: 2;
+  font-size: 1.5rem;
+  font-family: 'Anton', sans-serif;
+  color: #59a;
+}
+div{
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+div~div{
+  margin-top: 0.5rem;
+}
+input[type="text"],button{
+  border-style: none;
+  border-radius: 10px;
+  color:inherit;
+  background-color: inherit;
+  padding:0 0.3rem ;
+}
+input[type="text"]{
+  width: 85%;
+  height: 2.8rem;
+  text-overflow:ellipsis;
+}
+input[type="text"]:hover{
+  color: #dee;
+  background-color: #59a;
+  transition: 0.8s;
+  transform:scaleY(1.1);
+}
+input[type="text"]:focus{
+  background-color: #dee;
+}
+input[type="checkbox"]{
+  display: none;
+}
+input[type="checkbox"]:checked + label{
+  color: #dee;
+}
+i:hover{
+  color: #dee;
+  transform: rotate(360deg);
+  transition: 0.8s;
+}
+.container{
+  background-color: #dee;
+  width: 40vw;
+  height:90vh;
+  margin: 5vh auto;
+}
+.new{
+}
+.note{
+  height: 4rem;
+  background-color: #aef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.todolist{
+  max-height: 50vh;
+}
