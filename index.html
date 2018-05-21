@@ -1,49 +1,42 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- fontawesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
-    <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
-    <!-- stylesheet -->
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="stylesheets.css">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="stylesheets.css">
 
-    <title>To Do List</title>
-  </head>
-  <body>
-    <div class="container">
-      <div class="new note">
-        <!-- <i class="fas fa-check-circle"></i> -->
-        <!-- <i class="fas fa-times-circle"></i> -->
-        <input type="text" name="" value="New Note">
-        <button type="button" value="button"><i class="fas fa-plus-square fa-2x"></i></button>
-      </div>
-      <div class="todolist">
-        <div class="todo note">
-          <input type="checkbox" id ="cb_01" class="checkout">
-          <label for= "cb_01"><i id = "cbl_01" class="fas fa-check-circle"></i></label>
-          <input type="text" class="list" value="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
-          <button type="button" class="delete" name="button"><i class="fas fa-trash "></i></button>
-        </div>
-        <div class="todo note">
-          <input type="checkbox" id ="cb_02" class="checkout">
-          <label for= "cb_02"><i id = "cbl_02" class="fas fa-check-circle"></i></label>
-          <input type="text" class="list" value="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
-          <button type="button" class="delete" name="button"><i class="fas fa-trash "></i></button>
-        </div>
-      </div>
-
-      <div class="finish">
-        <div class="todo note">
-          <input type="checkbox" id ="cb_03" class="checkout">
-          <label for= "cb_03"><i id = "cbl_03" class="fas fa-times-circle"></i></label>
-          <input type="text" class="list" value="Lorem ipsum dolor sit amet, consectetur adipisicing elit.">
-          <button type="button" class="delete" name="button"><i class="fas fa-trash "></i></button>
-        </div>
+  <title>To Do List</title>
+</head>
+<body>
+  <div class="container">
+    <div class="note">
+      <textarea id="textNewNote" autofocus>Write something...</textarea>
+      <button type="button" id="addNewNote" class="far fa-plus-square fa-2x" value="button"></button>
+    </div>
+    <div id="todolist">
+      <div class="note">
+        <button type="button" class="checkout far fa-square" name="button"></button>
+        <textarea class="list">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</textarea>
+        <button type="button" class="del fas fa-trash" name="button"></button>
       </div>
     </div>
-  </body>
+
+    <div id="finish">
+      <div class="note">
+        <button type="button" class="checkout far fa-check-square" name="button"></button>
+        <textarea class="list">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</textarea>
+        <button type="button" class="del fas fa-trash" name="button"></button>
+      </div>
+    </div>
+  </div>
+  <!-- javascript -->
+  <script type="text/javascript" src="index.js"></script>
+
+</body>

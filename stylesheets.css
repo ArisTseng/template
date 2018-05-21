@@ -23,45 +23,41 @@ div{
 div~div{
   margin-top: 0.5rem;
 }
-input[type="text"],button{
+textarea,button{
   border-style: none;
   border-radius: 10px;
   color:inherit;
+  line-height: inherit;
   background-color: inherit;
   padding:0 0.3rem ;
 }
-input[type="text"]{
+textarea{
   width: 85%;
-  height: 2.8rem;
-  text-overflow:ellipsis;
+  max-height: 2.8rem;
+  overflow: hidden;
 }
-input[type="text"]:hover{
-  color: #dee;
+textarea:hover{
+  color: #aef;
   background-color: #59a;
-  transition: 0.8s;
+  transition: 0.5s;
   transform:scaleY(1.1);
+  max-height: 25vh;
+  overflow-y: scroll;
+
 }
-input[type="text"]:focus{
+textarea:focus{
   background-color: #dee;
 }
-input[type="checkbox"]{
-  display: none;
-}
-input[type="checkbox"]:checked + label{
-  color: #dee;
-}
-i:hover{
+button:hover{
   color: #dee;
   transform: rotate(360deg);
-  transition: 0.8s;
+  transition: 1.2s;
 }
 .container{
   background-color: #dee;
   width: 40vw;
   height:90vh;
   margin: 5vh auto;
-}
-.new{
 }
 .note{
   height: 4rem;
@@ -70,6 +66,25 @@ i:hover{
   justify-content: space-between;
   align-items: center;
 }
-.todolist{
+#todolist{
   max-height: 50vh;
+  overflow: hidden;
+}
+#todolist::before{
+  content: attr(id);
+  font-size: 1rem;
+}
+#todolist:hover{
+  overflow: scroll;
+}
+#finish{
+  max-height: 30vh;
+  overflow: hidden;
+}
+#finish::before{
+  content: attr(id);
+  font-size: 1rem;
+}
+#finish:hover{
+  overflow: scroll;
 }
